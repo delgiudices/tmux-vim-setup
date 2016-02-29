@@ -18,7 +18,7 @@ let g:flake8_show_in_gutter=1
 let g:flake8_show_in_file=1
 let g:flake8_quickfix_height=3
 
-colorscheme lucid
+colorscheme railscasts
 set t_Co=256
 set nu
 
@@ -29,6 +29,9 @@ autocmd filetype python set shiftwidth=4
 " HTML Specific scripts
 autocmd filetype html set shiftwidth=2
 autocmd filetype html set tabstop=2
+
+" Ruby Specific Scripts
+autocmd filetype ruby set shiftwidth=2
 
 python from powerline.vim import setup as powerline_setup
 python powerline_setup()
